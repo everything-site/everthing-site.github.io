@@ -8,7 +8,7 @@ if(isset($_POST['email'])) {
  
     $email_to = "akarlapudi03@gmail.com";
  
-    $email_subject = "everything-site registration!";
+    $email_subject = "everything-site registration";
  
      
  
@@ -137,7 +137,7 @@ $headers = 'From: '.$email_from."\r\n".
 @mail($email_to, $email_subject, $email_message, $headers);  
  
 ?>
-<!DOCTYPE html>
+ 
  
  
 <!-- include your own success html here -->
