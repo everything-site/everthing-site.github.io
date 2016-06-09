@@ -6,9 +6,9 @@ if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
  
-    $email_to = "akarlapudi03@gmail.com";
+    email_to = "akarlapudi03@gmail.com";
  
-    $email_subject = "everything-site registration";
+    email_subject = "everything-site registration";
  
      
  
